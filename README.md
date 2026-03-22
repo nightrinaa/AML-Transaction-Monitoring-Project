@@ -3,14 +3,14 @@
 This project simulates a financial transaction monitoring system used in AML (Anti-Money Laundering).  
 In this project i want to demonstrate practical knowledge of transaction monitoring, risk scoring, and detection of suspicious activity.
 
-- OBJECTIVE -
+## OBJECTIVE
 The goal of this project is to:
 - Generate synthetic customer and transaction data
 - Apply AML red flags to identify suspicious behavior
 - Calculate risk scores for transactions
 - Demonstrate basic transaction analysis
 
-- FEATURES -
+## FEATURES
 
 - Synthetic customer and transaction data generation
 - Rule-based risk scoring model
@@ -25,7 +25,7 @@ The goal of this project is to:
 - Suspicious transaction identification
 - Simple summary analytics
 
-- AML LOGIC IMPLEMENTED -
+## AML LOGIC IMPLEMENTED
 
 Transactions are evaluated using multiple risk indicators. Each transaction receives a **risk score** based on:
 1. High-value transactions (amounts > $10,000)  
@@ -40,7 +40,7 @@ Transactions are evaluated using multiple risk indicators. Each transaction rece
 
 Transactions with risk scores ≥ 60 are flagged as suspicious.
 
-- OUTPUT -
+## OUTPUT
 
 The project generates two CSV files:
 
@@ -66,7 +66,7 @@ The project generates two CSV files:
   - `flag_reasons` (text explanation of triggered red flags)  
   - `date` (for daily analysis)
 
-- EXAMPLE -
+## EXAMPLE
 
 A transaction is flagged as suspicious if:
 
@@ -74,12 +74,12 @@ A transaction is flagged as suspicious if:
 - Destination country is high-risk  
 - Multiple red flags are triggered  
 
-- TECH STACK -
+## TECH STACK
 
 - Python 3.14  
 - Pandas  
 
-- RESULTS -
+## RESULTS
 This project demonstrates:
 
 - Rule-based AML transaction monitoring  
