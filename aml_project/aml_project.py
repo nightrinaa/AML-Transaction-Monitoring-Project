@@ -3,8 +3,8 @@ import uuid
 from datetime import datetime, timedelta
 import pandas as pd
 
-NUM_CUSTOMERS = 200
-NUM_TRANSACTIONS = 2000
+NUM_CUSTOMERS = 100
+NUM_TRANSACTIONS = 500
 
 HIGH_RISK_COUNTRIES = ["IR","KP","SY","AF","RU"]
 COUNTRIES = ["US","DE","PL","GB","FR","NL","IT","ES",
